@@ -40,9 +40,9 @@ public class Customer {
         System.out.println("c1 == c3 is " + (c1 == c3));
         System.out.println("c1 == c4 is " + (c1 == c4));
         
-        System.out.println("c1.equals(c2) is" + c1.equals(c2));
-        System.out.println("c1.equals(c3) is" + c1.equals(c3));
-        System.out.println("c1.equals(c4) is" + c1.equals(c4));
+        System.out.println("c1.equals(c2) is " + c1.equals(c2));
+        System.out.println("c1.equals(c3) is " + c1.equals(c3));
+        System.out.println("c1.equals(c4) is " + c1.equals(c4));
         
     }
 }
