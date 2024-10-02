@@ -185,3 +185,39 @@ false == false RESULTS IN true
 true != false RESULTS IN true
 
 
+=== Lesson 1.8 === 
+
+Using logical operators 
+
+! symbol will invert the value of a boolean expression. Example:
+
+!true => false
+!false => true
+!(x==99) will be the same as x != 99
+
+!(x < 99) is the same as x >= 99
+
+
+~ called tilde 
+
+~ 0000_1111_0101_1100
+=> 1111_0000_1010_0011
+
+We can see the tilde sign inverts the 1 bits into 0 bits and vice-versa
+
+
+and:
+1 & 1 => 1
+anyone & 0 => 0
+
+or:
+anything | 1 => 1
+0 | o => 0 
+
+
+exclusive-or
+
+1 ^ 0 => 1
+0 ^ 1 => 1
+0 ^ 0 => 0
+1 ^ 1 => 0
