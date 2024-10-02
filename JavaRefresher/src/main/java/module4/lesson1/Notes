@@ -225,3 +225,34 @@ exclusive-or
 
 === lesson 1.9 ===
 
+Using short-circuit operations
+
+& VS &&
+
+if(customer.hasOverdraft() & customer.frequentVendors().Contains(check.payeel())){
+    MAKE THE PAYMENT
+}
+
+THE CODE ABOVE WILL CONTINUE TO CHECK customer.frequentVendors EVEN IF THE FIRST OPERANDS RETURNS FALSE. THE CODE BELOW IS MORE EFFICIANENT BECAUSE IT WON'T BOTHER SEARCH IF THE FIRST OPERANDS IS FALSE, WHICH IS SMARTER OPTION
+
+
+if(customer.hasOverdraft() && customer.frequentVendors().Contains(check.payeel())){
+    MAKE THE PAYMENT
+}
+
+
+| VS ||
+
+if ((check.amount()< customer.balance()) || (check.amount()< customer.overdraftLimit())){
+    make payment
+}
+
+
+=== Lesson 1.10 ===
+Using assignment operators 
+
+
+int x, y,z;
+x = y = z = 0;
+
+InputStreamOO
