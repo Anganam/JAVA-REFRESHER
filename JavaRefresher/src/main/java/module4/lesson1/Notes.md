@@ -1,4 +1,7 @@
-=== Lesson 1.1===
+
+# Use Java operators; including parentheses to override operator precedence 
+
+## === Lesson 1.1===
 
 Using operators, operands and expressions:
 
@@ -11,12 +14,13 @@ Using operators, operands and expressions:
         2++
 
 
-=== Lesson 1.2 ====
-+ add
-- subtract 
-* multiply
-/ devide
-% modulus
+## === Lesson 1.2 ====
+````
+ + add
+ - subtract 
+ * multiply
+ / devide
+ % modulus
 
 Modulus examples:
 5/3 => 1 remainder 3
@@ -25,8 +29,11 @@ Modulus examples:
 10/3 => 3 remainder 1
 10%3 => 1 
 
+````
+
 ----
 
+````
 5%3 then 5 - 3 => 2
 
 10%3 then 10 - 3 => 7
@@ -53,9 +60,11 @@ byte b1 = 100;
 byte b2 = 100;
 byte b3 = (byte)(b1 + b2); // This will give us 100 + 100 = 200 this is the too big for the byte datatype
                             b3 => -56??
+````
 
-=== lesson 1.3 ===
+## === lesson 1.3 ===
 
+````
 Using plus operator with sting 
 
 
@@ -79,8 +88,11 @@ INTERESTING EXAMPLE
 => 3 + " hello"
 => "3 hello" 
 
+````
 
-=== lesson 1.4 ===
+## === lesson 1.4 ===
+
+````
 Promoting operands
 
 int + int => int
@@ -99,10 +111,11 @@ byte b = 10;
 s = b + s <= compiler error 
     => results in being DataType int
 
+````
 
-=== lesson 1.5 ===
+## === lesson 1.5 ===
 
-
+````
 
 pre-increment
 int x = 99;
@@ -133,8 +146,12 @@ x++;    -> x is 100;
 x--;    -> x is 100;  
 --x;    -> x is 99;
 
-=== lesson 1.6 ===
+````
 
+## === lesson 1.6 ===
+
+
+```
 shift operators
 
 128, 64, 32, 16, 8, 4, 2, 1
@@ -143,11 +160,11 @@ shift operators
   ?,  ?,  0,  0, 1, 0, 1, 0 => 10   >>2
 
 used for bit flags not really used in main stream
+````
 
+## === lesson 1.7 ===
 
-=== lesson 1.7 ===
-
-
+````
 comparison operators
 
 <   less than
@@ -184,9 +201,11 @@ true == false RESULTS IN false
 false == false RESULTS IN true
 true != false RESULTS IN true
 
+````
 
-=== Lesson 1.8 === 
+## === Lesson 1.8 === 
 
+````
 Using logical operators 
 
 ! symbol will invert the value of a boolean expression. Example:
@@ -222,9 +241,11 @@ exclusive-or
 0 ^ 0 => 0
 1 ^ 1 => 0
 
+````
 
-=== lesson 1.9 ===
+## === lesson 1.9 ===
 
+````
 Using short-circuit operations
 
 & VS &&
@@ -247,12 +268,14 @@ if ((check.amount()< customer.balance()) || (check.amount()< customer.overdraftL
     make payment
 }
 
+````
 
-=== Lesson 1.10 ===
+## === Lesson 1.10 ===
+```
 Using assignment operators 
 
 
 int x, y,z;
 x = y = z = 0;
 
-InputStreamOO
+````
