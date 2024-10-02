@@ -30,6 +30,6 @@ public class P4L3 {
             System.out.println("sb1 == sb2 is " + (sb1 == sb3));
 
             System.out.println("sb1.equals(sb2) is " + sb1.equals(sb2));
-            System.out.println("sb1.equals(sb3)2 is " + sb1.equals(sb3));
+            System.out.println("sb1.equals(sb3) is " + sb1.equals(sb3));
     } 
 }
