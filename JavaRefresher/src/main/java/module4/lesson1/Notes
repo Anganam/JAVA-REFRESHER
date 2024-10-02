@@ -142,4 +142,46 @@ shift operators
   ?,  0,  0,  1, 0, 1, 0, 1 => 21   >>1
   ?,  ?,  0,  0, 1, 0, 1, 0 => 10   >>2
 
- 
+used for bit flags not really used in main stream
+
+
+=== lesson 1.7 ===
+
+
+comparison operators
+
+<   less than
+<=  less or equal to
+>   greater than
+>=  greater or equal to
+
+VALID OPERAND TYPES INCLUDE THE FOLLOWING
+byte
+short
+char
+int
+long
+float
+double
+
+Byte, Short Character, Integer, Long, Float, Double;
+
+
+Note: Number is EXCLUDED 
+
+OPERATORS RESULT in BOOLEAN true or false
+EXAMPLES
+5 < 6 results in true
+5 > 6 results in false
+
+3 <= (2 + 2) results in true
+
+
+== EQUAL
+!= NOT EQUAL
+
+true == false RESULTS IN false
+false == false RESULTS IN true
+true != false RESULTS IN true
+
+
