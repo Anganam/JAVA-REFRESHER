@@ -99,3 +99,45 @@ if(<test>){
 }
 
 ## 3.4 Using the ternary operator 
+
+ternary means 3 parts
+````
+
+<boolean> ? <valueA> : <valueB>
+if<boolean is true> then<valueA>
+                    else<valueB>
+
+````
+
+
+boolean doTheTest(){}
+int getOneValue(){};
+int getOtherValue(){};
+
+int result = doThetTest()
+           ? getOneValue()
+           : getOtherVaue();
+
+
+````
+
+
+````
+<b> ? <byte> : <byte> => <byte>
+<b> ? <long> : <long> => <long>
+<b> ? <byte>10 : 10 + 23 => <byte>
+<b> ? 10 : 10 + 23 => int
+
+<b> ? <byte> : <long> => <long>
+<b> ? <Byte> : <int> => <int>   //wrapper type will get unboxed
+<b> ? <boolean> : <boolean> => <boolean>
+<b> ? <boolean> : <int> => <boolean> //ERROR the 2nd and 3rd are not assignment compatible
+
+
+<b> ? <ClassA> : <ClassB> => <ClassA>
+<b> ? <ClassA> : <ClassB> => most specifc supertype to which both ClassA and ClassB are assignable
+
+````
+
+
+```
