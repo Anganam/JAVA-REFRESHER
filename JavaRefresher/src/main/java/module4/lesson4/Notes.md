@@ -167,13 +167,16 @@ case 5:
 ## Identifyinh switchable types
 
 **ALLOWED**
+
 int, short byte, char
 
 **NOT ALLOWED**
+
 not allowed to switch on 
 long, float, double, boolean
 
 **ALLOWED**
+
 enum 
 String
 
