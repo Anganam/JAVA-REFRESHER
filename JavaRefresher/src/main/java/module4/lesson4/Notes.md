@@ -108,8 +108,74 @@ public class CaseExample {
     
 }
 
-```
+````
 ## Understanding break
 
+
+
+````
+
+int x = <some value>
+switch(x){
+    case 1 :
+    case 2 : 
+    case 3 :
+    case 4 : 
+    case 5 : 
+        System.out.println("Weekday");
+                break;
+    case 6 :
+    case 7 : 
+        System.out.println("Weekend");
+                break;
+}
+````
+
+
+````
+
+int x = <some value>
+switch(x){
+    case 3 :
+System.out.println("Humpday");
+                break;
+    case 1 :
+    case 2 : 
+    case 4 : 
+    case 5 : 
+        System.out.println("Weekday");
+                break;
+    case 6 :
+    case 7 : 
+        System.out.println("Weekend");
+                break;
+}
+````
+
+making use of methods in switch to anounc both humday and weekday
+````
+case 3"
+    anounceHump();
+    anounceWeekday();
+    break;
+case 5:
+    anouncFriday();
+    anounceWeekday();
+    break;
+
+````
 ## Identifyinh switchable types
+
+**ALLOWED**
+int, short byte, char
+
+**NOT ALLOWED**
+not allowed to switch on 
+long, float, double, boolean
+
+**ALLOWED**
+enum 
+String
+
+
 
