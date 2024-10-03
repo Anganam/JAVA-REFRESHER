@@ -8,7 +8,7 @@ package module4.lesson2;
  *
  * @author Anganam
  */
-public class Customer {
+public final class Customer {
     
     private String name;
     private String address;
