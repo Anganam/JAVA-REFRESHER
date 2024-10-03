@@ -50,7 +50,33 @@ else{
 }
 ````
 
+
+- [faultly]
+
+if(<test>)
+    if(test2)
+        <statement>
+else
+    statement
+
+-[how it will work]
+if(<test>)
+    if(test2)
+        <statement>
+    else
+        statement
+
+-[fixed]
+if(<test>){
+    if(test2)
+        <statement>
+}else{
+    statement
+}
+
+
 ## 3.3 Understanding the if / else if / else structure
+
 
 
 ## 3.4 Using the ternary operator 
