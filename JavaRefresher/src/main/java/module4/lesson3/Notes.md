@@ -77,6 +77,25 @@ if(<test>){
 
 ## 3.3 Understanding the if / else if / else structure
 
+**This can work**
+if(<test>){
+    statement
+}else {
+    if(<test>){
+        statment
+    }else {
+            if(<test>)
+                statement
+        }
+    }
 
+**more efficient way of using else if**
+if(<test>){
+    statement
+} else if (<test>){
+    statement
+}else if(<test>){
+    statement
+}
 
 ## 3.4 Using the ternary operator 
