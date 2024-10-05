@@ -16,6 +16,8 @@ public class M6L1 {
             x--;
         }
         
+         System.out.println("x is " + x);
+        
  //       int y =10;
  //       while(y){
  //           System.out.println("y is " + y);

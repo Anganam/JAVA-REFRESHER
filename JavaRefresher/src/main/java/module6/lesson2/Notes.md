@@ -7,6 +7,16 @@
 
 ## 2.2 Understanding the initialization section of the for loop
 
+Allowed to init vatialnles of the same type in the loop
+for(int x = 0, y = 100, z;<test>; <next-time>)
+
+
+
+for(int x = 0, y = 100, z, a[] = {1, 2, 3, 4},b[][], c = new int[5];<test>; <next-time>)
+
+Not Allowed: using differernt types
+for(int x = 0, float y = 99.9F;<test>; <next-time>)
+
 ## 2.3 Understanding the test section of the for loop
 
 
