@@ -17,6 +17,6 @@ public class M7L1 {
     
     
     public void simpleMethod(){
-        System.out.println()
+     //   System.out.println()
     }
 }
