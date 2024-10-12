@@ -2,6 +2,48 @@
 
 ## 1.1 Creating Methods
 
+````
+DECLARATION
+[modifier] returntype name([argument-list])
+BODY
+
+{
+    statements;
+}
+
+````
+
+[modifier] returntype name([argument-list])
+
+modifier:
+    "Annotation" e.g @Override
+    Access constrol: **public, private, protected**
+    **abstract, static**
+    final,syncronized, native, 
+    strickfp
+
+
+return-type:
+    String
+    int
+
+
+name:
+First charater must be    $,_,letter  $,_, didgits  // $ and _ is legal but reserved
+   
+    
+````
+Argument list: argument argument ...
+
+````
+
+BODY
+
+{
+    statements;
+}
+
+
 
 ## 1.2 Code example for simple methods
 
