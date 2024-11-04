@@ -20,7 +20,7 @@ public class Base {
     public Base(){}
     
     public Base(String x){
-        super();
+        super();// redundant
         System.out.println("Back in Base(String)");
         this.x = x;
         

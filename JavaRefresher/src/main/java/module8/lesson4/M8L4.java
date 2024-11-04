@@ -13,6 +13,9 @@ public class M8L4 {
         Sub s = new Sub();
         s.showFeatures("Argument value");
         System.out.println("======================");
-        //s = new Sub();
+        s = new Sub("From main method");
+        s.showFeatures("Argument value");
+        //System.out.println("======================");
+        //s.showFeatures("Argument value");
     }
 }

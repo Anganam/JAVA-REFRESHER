@@ -40,7 +40,7 @@ public class Sub extends Base{
     
     public Sub(String bx, String x){
         super(bx);
-        System.out.println("Back in Sub(String,Strinh)");
+        System.out.println("Back in Sub(String,String)");
         this.x = x;   
     }
     
